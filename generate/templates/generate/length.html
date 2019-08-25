@@ -1,0 +1,11 @@
+<h1><center>
+    Random Passwords!
+</center></h1>
+
+<form action="{% url 'length' %}">
+    Enter Length : <input type="text" name="len_var">
+    <br>
+    <input type="checkbox" name="brackets" value="True">Include Brackets<br>
+    <input type="checkbox" name="special_characters" value="True">Include Special Characters<br>
+    <input type="submit" value="Submit">
+</form>
