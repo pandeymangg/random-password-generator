@@ -1,7 +1,8 @@
 <h1>Password : </h1> <h1><strong>{{ gen_pass }}</strong></h1>
+<h2>Refresh the page to change this password </h2> 
 
 <form action="{% url 'length' %}">
-    Generate Another Of Length : <input type="text" name="len_var">
+    Generate another of length : <input type="text" name="len_var">
     <br>
     <input type="checkbox" name="brackets" value="True">Include Brackets<br>
     <input type="checkbox" name="special_characters" value="True">Include Special Characters<br>
