@@ -1,0 +1,8 @@
+# Django 4.2 LTS
+Django>=4.2,<5.0
+# WSGI server for production
+gunicorn==21.2.0
+# Environment variables
+python-dotenv==1.0.1
+# Other dependencies
+# (Add any other libraries you need here)
